@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elevator Notification</title>
+</head>
+<body>
+  <h1>Waiting for Notification...</h1>
+  <audio id="alert" src="alert.mp3" preload="auto"></audio>
+  <script>
+    // Auto-play when the page is reloaded
+    window.onload = () => {
+      document.getElementById("alert").play();
+    };
+  </script>
+</body>
+</html>
